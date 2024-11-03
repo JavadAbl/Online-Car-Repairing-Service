@@ -1,0 +1,51 @@
+//@import "node_modules/bootstrap/scss/_functions";
+//@import "node_modules/bootstrap/scss/_variables";
+//@import "node_modules/bootstrap/scss/_variables-dark";
+
+$primary: #2ecc71; // Primary Green (lively and bold)
+$secondary: #4a5568; // Dark Gray (good contrast and elegant)
+$success: #27ae60; // Deeper Green (to indicate success)
+$info: #3498db; // Muted Blue (for info components)
+$warning: #f1c40f; // Bright Yellow (for warnings, grabs attention)
+$danger: #e74c3c; // Muted Red (for danger elements)
+$light: #f8f9fa; // Very Light Gray (background and subtle elements)
+$dark: #2c3e50; // Darker Gray-Blue (for contrast and depth)
+
+$spacer: 1rem !default;
+$spacers: (
+  0: 0,
+  1: $spacer * 0.25,
+  2: $spacer * 0.5,
+  3: $spacer,
+  4: $spacer * 1.5,
+  5: $spacer * 3,
+  6: $spacer * 4,
+  7: $spacer * 5,
+  8: $spacer * 6,
+) !default;
+
+$navbar-padding-y: 0.75rem;
+$navbar-dark-color: snow;
+$navbar-dark-hover-color: $primary;
+$navbar-dark-brand-color: $primary;
+$navbar-dark-brand-hover-color: $primary;
+
+$btn-radius: 50px;
+$_btn-padding-y: 0.2rem;
+$_btn-padding-x: 1.25rem;
+
+$btn-border-radius: $btn-radius;
+$btn-border-radius-sm: $btn-radius;
+$btn-border-radius-lg: $btn-radius;
+$btn-padding-x: $_btn-padding-x;
+$btn-padding-x-sm: $_btn-padding-x;
+$btn-padding-x-lg: $_btn-padding-x;
+$btn-padding-y: $_btn-padding-y;
+$btn-padding-y-sm: $_btn-padding-y;
+$btn-padding-y-lg: $_btn-padding-y;
+
+.navbar button:hover {
+  color: $light;
+}
+
+@import "node_modules/bootstrap/scss/bootstrap";

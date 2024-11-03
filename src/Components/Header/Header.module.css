@@ -1,0 +1,11 @@
+.btnContainer {
+  max-width: 95%;
+}
+
+.img {
+  aspect-ratio: 1.2;
+}
+
+.btn {
+  width: 50%;
+}
