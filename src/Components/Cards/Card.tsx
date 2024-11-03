@@ -1,20 +1,20 @@
-import { Col, Row, Stack } from "react-bootstrap";
+import { Stack } from "react-bootstrap";
 import styles from "./Card.module.css";
 
-export default function Card({ title, content, image }) {
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+export default function Card({ title, content, image }: any) {
   return (
     <Stack
       direction="horizontal"
-      style={{ backgroundColor: "red" }}
-      className=" justify-content-center align-items-start"
+      gap={3}
+      //  style={{ backgroundColor: "red" }}
+      className={"justify-content-center align-items-start " + styles.container}
     >
-      <div>
-        <i className="bi bi-airplane-fill text-primary-emphasis display-5"></i>
-      </div>
+      <div>{image}</div>
 
       <div>
-        <h2 className="h5">{title}</h2>
-        <p>
+        <h2 className="h5 text-info">{title}</h2>
+        <p className=" text-muted ">
           {content ??
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, omnis officia tempore inventore sit."}
         </p>

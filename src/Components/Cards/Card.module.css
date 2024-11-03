@@ -1,0 +1,9 @@
+.container {
+}
+
+p {
+  hyphens: auto;
+  -webkit-hyphens: "auto";
+
+  /*  word-break: break-all; */
+}

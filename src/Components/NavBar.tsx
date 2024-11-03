@@ -6,7 +6,7 @@ export default function NavBar() {
       <Container fluid className="  ">
         <Navbar.Brand className="h4 py-0 my-0">
           {/* <span className="bi bi-car-front-fill me-1 "></span> */}
-          <img src="logo2.webp" width="55" alt="" />
+          <img src="logo3-color.webp" width="55" alt="" />
           <span>Online Car Services</span>
         </Navbar.Brand>
 
