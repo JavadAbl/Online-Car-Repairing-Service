@@ -3,7 +3,7 @@ import { Button, Container, Nav, Navbar } from "react-bootstrap";
 export default function NavBar() {
   return (
     <Navbar expand={"sm"} variant="light" bg="primary-subtle">
-      <Container fluid className="  ">
+      <Container fluid="lg" className="  ">
         <Navbar.Brand className="h4 py-0 my-0">
           {/* <span className="bi bi-car-front-fill me-1 "></span> */}
           <img src="logo3-color.webp" width="55" alt="" />

@@ -7,7 +7,7 @@ export default function Header() {
     <>
       <header className=" pt-6 pb-4 bg-primary-subtle ">
         <Container fluid="lg">
-          <Row lg={3} md={2} xs={1}>
+          <Row lg={2} md={2} xs={1}>
             <Col>
               <img
                 src="img-hero.jpg"

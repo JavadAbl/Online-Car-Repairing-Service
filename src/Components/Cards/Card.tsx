@@ -14,7 +14,7 @@ export default function Card({ title, content, image }: any) {
 
       <div>
         <h2 className="h5 text-info">{title}</h2>
-        <p className=" text-muted ">
+        <p className={"text-muted " + styles.content}>
           {content ??
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, omnis officia tempore inventore sit."}
         </p>

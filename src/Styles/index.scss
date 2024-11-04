@@ -48,4 +48,8 @@ $btn-padding-y-lg: $_btn-padding-y;
   color: $light;
 }
 
+hr {
+  border-color: $info !important;
+}
+
 @import "node_modules/bootstrap/scss/bootstrap";
