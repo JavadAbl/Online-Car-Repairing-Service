@@ -8,13 +8,13 @@ import Footer from "../../Components/Footer/Footer";
 export default function Home() {
   return (
     <>
-      {/*  <Container fluid={"lg"} className="  "> */}
-      <NavBar />
-      <Header />
-      <Cards />
-      <Services />
-      <Footer />
-      {/*  </Container> */}
+      <div className=" bg-primary-subtle">
+        <NavBar />
+        <Header />
+        <Cards />
+        <Services />
+        <Footer />
+      </div>
     </>
   );
 }

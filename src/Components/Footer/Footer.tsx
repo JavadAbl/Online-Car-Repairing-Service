@@ -3,20 +3,20 @@ import styles from "./Footer.module.css";
 
 export default function Footer() {
   return (
-    <footer className=" bg-dark pt-4">
+    <footer className=" bg-dark pt-4 pb-1">
       <Container fluid="lg">
         <Row xs={1} sm={2} md={3} className=" row-gap-2 mb-2">
           <Col>
             <Stack>
-              <a className="link-info  " href="#">
+              <a className={"link-info " + styles.link} href="#">
                 ContectUs
               </a>
 
-              <a className="link-info  " href="#">
+              <a className={"link-info " + styles.link} href="#">
                 AboutUs
               </a>
 
-              <a className="link-info  " href="#">
+              <a className={"link-info " + styles.link} href="#">
                 Our Branches
               </a>
             </Stack>
@@ -24,22 +24,32 @@ export default function Footer() {
 
           <Col>
             <Stack>
-              <a className="link-info fw-bold " href="#">
-                Link1
+              <a className={"link-info " + styles.link} href="#">
+                Another Link
               </a>
 
-              <a className="link-info fw-bold " href="#">
-                Link2
+              <a className={"link-info " + styles.link} href="#">
+                Another Link
               </a>
 
-              <a className="link-info fw-bold" href="#">
-                Link3
+              <a className={"link-info " + styles.link} href="#">
+                Another Link
               </a>
             </Stack>
           </Col>
 
           <Col>
-            <p className="my-0 mb-2 text-light">Our Apps</p>
+            <p
+              className={
+                "justify my-0 mb-2 text-light text-opacity-75 " +
+                styles.textDescription
+              }
+            >
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam
+              vel similique neque itaque mollitia libero quidem beatae iste
+              blanditiis molestiae? Eaque illum explicabo quaerat consectetur
+              saepe blanditiis asperiores, doloribus mollitia!
+            </p>
             <Stack direction="horizontal" gap={1}>
               <a href="#">
                 <img
@@ -69,7 +79,7 @@ export default function Footer() {
             "text-center m-0 text-opacity-50 text-light " + styles.textRights
           }
         >
-          All Rights Reserved
+          All Rights Reserved 2024
         </p>
       </Container>
     </footer>

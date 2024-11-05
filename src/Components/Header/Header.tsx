@@ -5,7 +5,7 @@ import AnimatedWave from "../SVGs/AnimatedWave";
 export default function Header() {
   return (
     <>
-      <header className=" pt-6 pb-4 bg-primary-subtle ">
+      <header className=" pt-6 pb-4 bg-info-subtle ">
         <Container fluid="lg">
           <Row lg={2} md={2} xs={1}>
             <Col>

@@ -53,3 +53,12 @@ hr {
 }
 
 @import "node_modules/bootstrap/scss/bootstrap";
+
+.justify {
+  text-align: justify;
+  hyphens: auto;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  word-break: break-all;
+}
